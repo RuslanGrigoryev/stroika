@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/lightbox.css"/>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -44,8 +43,8 @@
 					<li class="menu_second__list"><a href="eval.html" class="menu_second__link">оценка имущества</a></li>
 				</ul>
 			</li>
-			<li class="menu__item menu__item_active"><a href="sertificates.html">сертификаты</a></li>
-			<li class="menu__item"><a href="objects.html">наши объекты</a></li>
+			<li class="menu__item"><a href="sertificates.html">сертификаты</a></li>
+			<li class="menu__item menu__item_active"><a href="objects.html">наши объекты</a></li>
 			<li class="menu__item"><a href="contacts.html">контакты</a></li>
 		</ul>
 		<ul class="menu__advanced">
@@ -55,16 +54,46 @@
 		</ul>
 	</header>
 
-	<div class="section_sert clearfix">
-		<a href="images/sert/sert-1.png" data-lightbox="sert" class="sert-full">
-			<img width="788" height="541" src="images/sert/sert-1.png" alt="sertificate">
-		</a>
-		<a href="images/sert/sert-2.png" data-lightbox="sert" class="sert-half f-l">
-			<img width="362" height="496" src="images/sert/sert-2.png" alt="sertificate">
-		</a>
-		<a href="images/sert/sert-3.png" data-lightbox="sert" class="sert-half f-r">
-			<img width="362" height="496" src="images/sert/sert-3.png" alt="sertificate">
-		</a>
+	<div class="section_objects">
+		<div class="slider__images">
+			<img class="slider__images_active"src="images/objects/img-05.png" alt="imageObject" data-image="1">
+			<img src="images/objects/img-06.png" alt="imageObject" data-image="2">
+			<img src="images/objects/img-07.png" alt="imageObject" data-image="3">
+			<img src="images/objects/img-08.png" alt="imageObject" data-image="4">
+		</div>
+
+		<div class="slider">
+			<div class="slide-list">
+				<div class="slide-wrap play">
+					<div class="slide-item">
+						<a href="#" data-link="1">
+							<img width="240" height="180" src="images/objects/img-01.png" alt="" />
+						</a>
+					</div>
+					<div class="slide-item">
+						<a href="#" data-link="2">
+							<img width="240" height="180" src="images/objects/img-02.png" alt="" />
+						</a>
+					</div>
+					<div class="slide-item">
+						<a href="#" data-link="3">
+							<img width="240" height="180" src="images/objects/img-03.png" alt="" />
+						</a>
+					</div>
+					<div class="slide-item">
+						<a href="#" data-link="4">
+							<img width="240" height="180" src="images/objects/img-04.png" alt="" />
+						</a>
+					</div>
+					
+					
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div name="prev" class="navy prev-slide"></div>
+			<div name="next" class="navy next-slide"></div>
+		</div>
+
 	</div>
 
 	<footer class="footer">
@@ -79,7 +108,6 @@
 	</footer>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/lightbox.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
