@@ -30,6 +30,12 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	min-width: 920px;
+	max-width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+	font-family: myriad pro, sans-serif;
+	text-transform: uppercase;
 }
 ol, ul {
 	list-style: none;
@@ -46,3 +52,184 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a {
+    text-decoration: none;	
+    /* color: #fff; */
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*main styles*/
+
+.header {
+    padding: 20px 18px 18px 18px;
+    background: url(../../images/markup/header-line.png) bottom center no-repeat;
+}
+.header__logo {
+    float: left;
+    min-width: 500px;
+}
+.header__logo__link {
+    display: block;
+}
+.header__logo__link img {
+    float: left;
+}
+.header__logo__link h1 {
+    /* float: left; */
+    text-shadow: 1px 1px 6px rgba(0,0,0,.27);
+    font-size: 51px;
+    /* text-decoration: none; */
+    background: -webkit-linear-gradient(#08253e, #454E55);    -webkit-background-clip: text;    -webkit-text-fill-color: transparent;
+    padding: 23px 0 0 105px;
+    margin-left: 10px;
+}
+.header__logo__link h2 {
+    font-size: 19px;
+    background: -webkit-linear-gradient(#0b4578, #0b4578);  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    text-shadow: 4px 3px 3px rgba(0,0,0,.4);
+    padding: 15px 0 0 118px;
+}
+.header__contacts {
+    float: right;
+    padding-top: 13px;
+    text-align: right;
+}
+address {
+    text-transform: none;
+    font-weight: bold;
+    color: #08253e;
+    margin-bottom: 10px;
+}
+.header__contacts dl {
+    text-transform: none;
+    /* color: #08253e; */
+}
+.header__contacts dt {
+    color: #08253e;
+    /* display: inline-block; */
+    /* clear: both; */
+    float: left;
+    margin-left: 40px;
+}
+.header__contacts dd {
+    color: #08253e;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 2px;
+}
+.ico {
+    width: 35px;
+    display: inline-block;
+    height: 34px;
+}
+.ico-rss {
+    background: url(../../images/markup/icons.png) 0px 0px no-repeat;
+}
+.ico-mail {
+    background: url(../../images/markup/icons.png) -35px 0px no-repeat;
+}
+.wrap-contacts {
+    /* width: 300px; */
+	
+    /* float: right; */
+    margin-bottom: 6px;
+}
+dd.header__contacts__mail {
+    padding-top: 10px;
+	
+}
+.header__center {
+    margin-top: 10px;
+    padding: 5px 0;
+}
+.menu {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.menu__item {
+    display: table-cell;
+    text-transform: none;
+    text-align: center;
+    /* box-shadow: 0px 5px 5px rgba(0,0,0,.75); */
+}
+.menu__item a {
+    color: #fff;
+    display: block;
+    font-size: 23px;
+    padding: 30px;
+    background: #08253e;
+    /* border-radius: 5px; */
+    box-shadow: 4px 5px 5px rgba(0,0,0,0.95);
+}
+.menu__item_active a {
+    background: #145186;
+    padding: 40px 30px;
+    /* box-shadow: none; */
+    border-radius: 5px;
+}
+.menu__item_active:first-child a {
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;  border-bottom-right-radius: 5px;
+}
+.menu__item_active:last-child a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.menu__advanced {
+    height: 213px;
+
+    background: url(../../images/markup/menu-adv.png) no-repeat;
+    margin-top: -7px;
+    padding: 50px 60px;
+}
+.menu__advanced__item {
+    margin-bottom: 52px;
+}
+.menu__advanced__item a {
+    display: block;
+    font-size: 37px;
+    color: #fff;
+    text-transform: none;
+}
+.menu__advanced__item_active {
+
+}
+.menu__advanced__item_active a {
+    color: #59a7eb;
+}
+.menu__advanced__item:nth-child(2) a {
+    padding-left: 118px;
+}
+.menu__advanced__item:nth-child(3) a {
+    padding-left: 236px;
+}
+.footer {
+    background: #08253e;
+    height: 163px;
+    padding: 40px;
+    -webkit-box-sizing: border-box;   -moz-box-sizing: border-box;   box-sizing: border-box;
+    position: relative;
+}
+.footer__contacts {
+    float: left;
+}
+.footer__contacts p {
+    color: #fff;
+    text-transform: none;
+    margin-bottom: 5px;
+    font-size: 23px;
+}
+.footer__img {
+    position: absolute;
+    z-index: 79;
+    right: 0;
+    bottom: 0;
+}
+.footer__img img {}
