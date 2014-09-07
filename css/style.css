@@ -286,7 +286,7 @@ dd.header__contacts__mail {
     display: none;
     position: absolute;
     z-index: 60;
-    bottom: -230px;
+    bottom: -224px;
     width: 190px;
     left: -20px;
 }
@@ -294,7 +294,7 @@ dd.header__contacts__mail {
     text-align: left;
     padding: 10px;
     background: #145186;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     border-radius: 5px;
 }
 .menu_second__link {
@@ -433,11 +433,11 @@ dd.header__contacts__mail {
 }
 .prev-slide {
     left: 0;
-    background: #dbdbdb url(https://dl.dropboxusercontent.com/u/62557375/Front-end/Sliders/simple-slider-my-auto/bg/left-arrow.png) 11px 40% no-repeat;
+    background: #FFFFFF url(https://dl.dropboxusercontent.com/u/62557375/Front-end/Sliders/simple-slider-my-auto/bg/left-arrow.png) 11px 40% no-repeat;
 }
 .next-slide {
     right: 0;
-    background: #dbdbdb url(https://dl.dropboxusercontent.com/u/62557375/Front-end/Sliders/simple-slider-my-auto/bg/right-arrow.png) 13px 40% no-repeat;
+    background: #FFFFFF url(https://dl.dropboxusercontent.com/u/62557375/Front-end/Sliders/simple-slider-my-auto/bg/right-arrow.png) 13px 40% no-repeat;
 }
 .navy.disable {
     background: #dbdbdb;
@@ -460,4 +460,10 @@ a.slide-item__active {
 }
 .slider__images {
     height: 708px;
+}
+.section_text_bold {
+    margin-bottom: 20px;
+}
+.section-simple-text_indent {
+    text-indent: 50px;
 }
