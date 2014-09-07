@@ -295,3 +295,29 @@ dd.header__contacts__mail {
     color: #fff;
     display: block;
 }
+.content_contacts {
+
+}
+.contact-block {
+    margin-bottom: 50px;
+}
+.contact-image {
+    float: left;
+}
+#map {
+    width: 850px;
+
+    margin: 40px auto;
+}
+.contact-text {}
+.contact-text__name {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.contact-text__pos {
+    font-size: 30px;
+}
+.contact-text__phone {
+    margin-top: 70px;
+    font-size: 30px;
+}
