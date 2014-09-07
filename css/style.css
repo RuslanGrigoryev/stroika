@@ -60,6 +60,12 @@ p {
 	line-height: 29px;
 	font-size: 24px;
 }
+.f-l {
+    float: left;
+}
+.f-r {
+    float: right;
+}
 .clearfix:after {
   content: "";
   display: table;
@@ -70,7 +76,7 @@ p {
 
 .header {
     padding: 20px 18px 27px 18px;
-    background: url(../../images/markup/header-line.png) bottom center no-repeat;
+    background: url(../images/markup/header-line.png) bottom center no-repeat;
     /* background-size: 100%; */
 }
 .header__logo {
@@ -133,10 +139,10 @@ address {
     height: 34px;
 }
 .ico-rss {
-    background: url(../../images/markup/icons.png) 0px 0px no-repeat;
+    background: url(../images/markup/icons.png) 0px 0px no-repeat;
 }
 .ico-mail {
-    background: url(../../images/markup/icons.png) -35px 0px no-repeat;
+    background: url(../images/markup/icons.png) -35px 0px no-repeat;
 }
 .wrap-contacts {
     margin-bottom: 6px;
@@ -189,7 +195,7 @@ dd.header__contacts__mail {
 }
 .menu__advanced {
     height: 213px;
-    background: url(../../images/markup/menu-adv.png) no-repeat;
+    background: url(../images/markup/menu-adv.png) no-repeat;
     margin-top: -7px;
     padding: 50px 60px;
 }
@@ -246,7 +252,7 @@ dd.header__contacts__mail {
     color: #163246;
     font-size: 34px;
     padding-left: 0px;
-    background: url(../../images/markup/remark-bg.png) left top no-repeat;
+    background: url(../images/markup/remark-bg.png) left top no-repeat;
     line-height: 90px;
 }
 .content_tab {
@@ -309,7 +315,6 @@ dd.header__contacts__mail {
 
     margin: 40px auto;
 }
-.contact-text {}
 .contact-text__name {
     margin-bottom: 10px;
     font-size: 30px;
@@ -320,4 +325,48 @@ dd.header__contacts__mail {
 .contact-text__phone {
     margin-top: 70px;
     font-size: 30px;
+}
+.section__header {
+    font-size: 44px;
+
+    border: 7px solid #d5dade;
+    border-radius: 19px;
+    padding: 14px 24px 14px 39px;
+    margin-bottom: 10px;
+}
+.section__list {
+    margin: 32px 0;
+    padding: 0 32px;
+}
+.section__list li {
+	list-style-type: disc;
+	font-size: 20px;
+	line-height: 22px;
+	margin-bottom: 30px;
+}
+.section-simple-text {
+    font-size: 21px;
+    line-height: 23px;
+    text-indent: 60px;
+}
+.section_text {
+    margin-top: 13px;
+	
+    padding: 0 6px;
+}
+.section_sert {
+	padding-top: 40px;
+}
+.sert-full {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sert-half {
+    padding-left: 110px;
+    margin-bottom: 40px;
+}
+.section_sert .sert-half:last-child {
+    padding-right: 110px;
+    padding-left: 0;
 }
